@@ -4,7 +4,7 @@
   "description": "Encode url safe for all environments ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/edravis/encoder64/issues"
   },
-  "homepage": "https://github.com/edravis/encoder64#readme"
+  "homepage": "https://github.com/edravis/encoder64#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "ripper64": "0.0.0"
+  }
 }

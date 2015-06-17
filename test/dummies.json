@@ -1,0 +1,12 @@
+[
+   {
+      "category":"protocols",
+      "tests":[
+         {
+            "dummy":"http://",
+            "hash":"aHR0cDovLw",
+            "name":"http"
+         }
+      ]
+   }
+]
