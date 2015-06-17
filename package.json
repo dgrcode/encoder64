@@ -1,0 +1,31 @@
+{
+  "name": "encoder64",
+  "version": "0.0.0",
+  "description": "Encode url safe for all environments ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edravis/encoder64.git"
+  },
+  "keywords": [
+    "encode",
+    "decode",
+    "url",
+    "uri",
+    "javascript",
+    "safe",
+    "http",
+    "buffer",
+    "encoder",
+    "decoder"
+  ],
+  "author": "Rubén Sospedra, Deerloper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edravis/encoder64/issues"
+  },
+  "homepage": "https://github.com/edravis/encoder64#readme"
+}
