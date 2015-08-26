@@ -1,6 +1,6 @@
 {
   "name": "encoder64",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Encode url safe for all environments ",
   "main": "index.js",
   "scripts": {

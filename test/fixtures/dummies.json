@@ -16,12 +16,12 @@
   },
   {
     "dummy": "http://encoder64.io:1337/@foo#b$ar?fooz=b;az&f+o+o=b,az/",
-    "hash": "aHR0cDovL2VuY29kZXI2NC5pbzoxMzM3L0Bmb28jYiRhcj9mb296PWI7YXomZitvK289Yixhei8~",
+    "hash": "aHR0cDovL2VuY29kZXI2NC5pbzoxMzM3L0Bmb28jYiRhcj9mb296PWI7YXomZitvK289Yixhei8",
     "name": "with reserved characters"
   },
   {
     "dummy": "http://encoder64.io/~[foo]#feel`g´ood?fo<o>=\"bar\"&fo{o}z=%b|a^r%",
-    "hash": "aHR0cDovL2VuY29kZXI2NC5pby9-W2Zvb10jZmVlbGBnwrRvb2Q_Zm88bz49ImJhciImZm97b316PSVifGFeciU~",
+    "hash": "aHR0cDovL2VuY29kZXI2NC5pby9-W2Zvb10jZmVlbGBnwrRvb2Q_Zm88bz49ImJhciImZm97b316PSVifGFeciU",
     "name": "with unsafe characters"
   },
   {
