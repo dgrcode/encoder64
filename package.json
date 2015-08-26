@@ -4,7 +4,7 @@
   "description": "Encode url safe for all environments ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "standard && node ./test/tests.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -29,9 +29,9 @@
   },
   "homepage": "https://github.com/edravis/encoder64#readme",
   "devDependencies": {
-    "mocha": "^2.2.5"
-  },
-  "dependencies": {
-    "ripper64": "0.0.0"
+    "mocha": "^2.2.5",
+    "standard": "^5.1.0",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.0"
   }
 }

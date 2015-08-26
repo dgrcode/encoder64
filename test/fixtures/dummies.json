@@ -1,7 +1,4 @@
-var assert = require('assert');
-var encoder64 = require('../');
-
-var tests = [
+[
   {
     "dummy": "http://encoder64.io#hash",
     "hash": "aHR0cDovL2VuY29kZXI2NC5pbyNoYXNo",
@@ -23,26 +20,13 @@ var tests = [
     "name": "with reserved characters"
   },
   {
-    "dummy": 'http://encoder64.io/~[foo]#feel`g´ood?fo<o>="bar"&fo{o}z=%b|a^r%',
+    "dummy": "http://encoder64.io/~[foo]#feel`g´ood?fo<o>=\"bar\"&fo{o}z=%b|a^r%",
     "hash": "aHR0cDovL2VuY29kZXI2NC5pby9-W2Zvb10jZmVlbGBnwrRvb2Q_Zm88bz49ImJhciImZm97b316PSVifGFeciU~",
     "name": "with unsafe characters"
+  },
+  {
+    "dummy": "ssh://deerloper:mrrobot@1.3.3.7:1001/unbreakable",
+    "hash": "c3NoOi8vZGVlcmxvcGVyOm1ycm9ib3RAMS4zLjMuNzoxMDAxL3VuYnJlYWthYmxl",
+    "name": "with different schema and authority"
   }
-];
-
-describe('Test all the casuistics', function(){
-  
-  tests.map(function(each){
-    describe('For urls ' + each.name, function(){
-      
-      it('should encode', function(){
-        assert.equal(encoder64.encode(each.dummy), each.hash);
-      });
-
-      it('and decode', function(){
-        assert.equal(encoder64.decode(each.hash), each.dummy);
-      });
-
-    });
-  });
-
-});
+]
